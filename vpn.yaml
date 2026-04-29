@@ -1,0 +1,22 @@
+# ===== GPT 相关（尽量直连或单独走） =====
+DOMAIN-SUFFIX,openai.com,DIRECT
+DOMAIN-SUFFIX,chatgpt.com,DIRECT
+DOMAIN-SUFFIX,oaistatic.com,DIRECT
+DOMAIN-SUFFIX,oaiusercontent.com,DIRECT
+  
+  # API（给 Cursor 用）
+DOMAIN-SUFFIX,api.openai.com,PROXY
+  
+  # ===== Cursor / 开发 =====
+DOMAIN-SUFFIX,github.com,PROXY
+DOMAIN-SUFFIX,githubusercontent.com,PROXY
+DOMAIN-SUFFIX,githubassets.com,PROXY
+DOMAIN-SUFFIX,cursor.sh,PROXY
+  
+  # ===== Google =====
+DOMAIN-SUFFIX,google.com,PROXY
+DOMAIN-SUFFIX,gstatic.com,PROXY
+DOMAIN-SUFFIX,googleapis.com,PROXY
+  
+  # ===== 兜底 =====
+FINAL,DIRECT
